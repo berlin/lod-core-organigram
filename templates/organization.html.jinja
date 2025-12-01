@@ -33,6 +33,15 @@
 {% block info_table_content %}
     {{ super() }}
 
+    {% set abbreviation = node | rdf_property_any(BERORGS.abbreviation) %}
+    {% if abbreviation %}
+        <tr>
+            <td>Abkürzung:</td>
+            <td>{{ abbreviation }}</td>
+        </tr>
+    {% endif %}
+
+
     {% set parent = node | rdf_property_any(ORG.unitOf) %}
     {% if parent %}
         <tr>
