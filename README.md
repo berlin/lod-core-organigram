@@ -1,6 +1,6 @@
 # Berlin Core Organigrams
 
-An experimental core orgranigrams for Berlin's administration, derived from the sources below.
+An experimental core orgranigram for Berlin's administration, derived from the sources below.
 Only a subset of the complete organigrams for each department or agency are included.
 
 ## Sources
@@ -22,7 +22,7 @@ The following files were used as the sources feeding into the organigrams:
 | [Senatsverwaltung für Wirtschaft, Energie und Betriebe](https://www.berlin.de/sen/wirtschaft/) | WEB | https://www.berlin.de/sen/web/ueber-uns/leitung-und-organisation/abteilungen/, https://www.berlin.de/sen/web/ueber-uns/leitung-und-organisation/organigramm-senwienbe-ohne-arbeitsgruppen-stand-24012025.pdf | X |
 | [Senatsverwaltung für Wissenschaft, Gesundheit und Pflege](https://www.berlin.de/sen/wgpg/) | WGP | https://raw.githubusercontent.com/berlin/lod-organigram/refs/heads/main/data/static/SenWGP.ttl | |
 
-**[Start browsing the data!](https://berlin.github.io/lod-vocabulary/)**
+**[Start browsing the data!](https://berlin.github.io/lod-core-organigram/)**
 
 ## License
 
