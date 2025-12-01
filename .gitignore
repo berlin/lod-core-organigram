@@ -1,0 +1,17 @@
+/data/temp
+_site/
+.vscode
+venv/
+lib/
+
+assets/berlin.lod.basetheme
+assets/berlin.lod.vocabtheme
+config/berlin.lod.basetheme
+config/berlin.lod.vocabtheme
+templates/berlin.lod.basetheme
+templates/berlin.lod.vocabtheme
+
+.DS_Store
+
+sources/pdf
+sources/ttl

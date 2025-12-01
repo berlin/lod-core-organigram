@@ -1,0 +1,61 @@
+{% extends 'berlin.lod.basetheme/base.html.jinja' %}
+
+{% set type_icon = type_icon | default('building') %}
+{% set parent = node | rdf_property_any(ORG.unitOf) %}
+
+{% block breadcrumbs %}
+    <div class="row breadcrumbs">
+        <div class="col-12">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{{ resource_prefix | relative_uri }}">
+                    {{ dataset_breadcrumb }}
+                    </a>
+                </li>
+                {% if parent %}
+                    <li class="breadcrumb-item">
+                        <a href="{{ parent | relative_uri }}">
+                            {% set parent_local_name = helper.prefix_label(parent) %}
+                            {{ parent | title_any(['de', 'en'], parent_local_name) }}
+                        </a>
+                    </li>
+                {% endif %}
+                <li class="breadcrumb-item">
+                    {{ title }}
+                </li>
+            </ol>
+        </nav>
+        </div>
+    </div>
+{% endblock breadcrumbs %}
+
+{% block info_table_content %}
+    {{ super() }}
+
+    {% set parent = node | rdf_property_any(ORG.unitOf) %}
+    {% if parent %}
+        <tr>
+            <td>Übergeordnete Einheit:</td>
+            <td>
+                <a href="{{ parent | relative_uri }}">
+                    {% set parent_local_name = helper.prefix_label(parent) %}
+                    {{ parent | title_any(['de', 'en'], parent_local_name) }}
+                </a>
+            </td>
+        </tr>
+    {% endif %}
+
+    {% set children = node | rdf_inverse_property(ORG.unitOf) | sort %}
+    {% for child in children %}
+        <tr>
+            <td>Untereinheit:</td>
+            <td>
+                <a href="{{ child | relative_uri }}">
+                    {% set child_local_name = helper.prefix_label(child) %}
+                    {{ child | title_any(['de', 'en'], child_local_name) }}
+                </a>
+            </td>
+        </tr>
+    {% endfor %}
+{% endblock info_table_content %}

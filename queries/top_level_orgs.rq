@@ -1,0 +1,29 @@
+PREFIX berorgs: <https://berlin.github.io/lod-vocabulary/berorgs/>
+PREFIX lod_organigram: <https://berlin.github.io/lod-organigram/>
+PREFIX lod_core_organigram: <https://berlin.github.io/lod-core-organigram/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# a top level org is any resource of type org:Organization (including subclasses), 
+# that are not org:unitOf something, or not the org:hasUnit of something.
+
+SELECT ?label ?org ?type
+WHERE {
+    ?org 
+        a ?type ;
+        rdfs:label ?label ;
+    .
+
+    ?type rdfs:subClassOf* org:Organization .
+
+    FILTER(NOT EXISTS{?org org:unitOf ?parent_org})
+    FILTER(NOT EXISTS{?parent_org org:hasUnit ?org})
+
+    # keep only the most specific type(s)
+    FILTER NOT EXISTS {
+        ?org a ?otherType .
+        ?type rdfs:subClassOf+ ?otherType .
+    }
+
+}
+ORDER BY ?label

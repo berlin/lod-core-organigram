@@ -1,0 +1,11 @@
+@prefix coreorg: <https://berlin.github.io/lod-core-organigram/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+coreorg: void:classPartition [ void:class org:Organization ;
+            void:entities 30 ],
+        [ void:class org:OrganizationalUnit ;
+            void:entities 50 ] .
+
+

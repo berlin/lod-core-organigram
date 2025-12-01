@@ -1,0 +1,50 @@
+PREFIX berorgs: <https://berlin.github.io/lod-vocabulary/berorgs/>
+PREFIX lod_organigram: <https://berlin.github.io/lod-organigram/>
+PREFIX lod_core_organigram: <https://berlin.github.io/lod-core-organigram/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?label ?org ?type ?abbreviation ?parent_label ?sort_key
+WHERE {
+    ?org 
+        a ?type ;
+        rdfs:label ?label ;
+    .
+
+    ?type rdfs:subClassOf* org:Organization .
+
+    OPTIONAL {
+        ?org org:unitOf/rdfs:label ?parent_label .
+    }
+    OPTIONAL {
+        ?org berorgs:abbreviation ?abbreviation
+    }
+
+    # keep only the most specific type(s)
+    FILTER NOT EXISTS {
+        ?org a ?otherType .
+        ?type rdfs:subClassOf+ ?otherType .
+    }
+
+    BIND(STR(CONCAT(COALESCE(?parent_label, ""), ?label)) AS ?raw_key)
+    BIND(
+        REPLACE(
+            REPLACE(
+                REPLACE(
+                    REPLACE(
+                        REPLACE(
+                            REPLACE(
+                                REPLACE(
+                                    REPLACE(?raw_key,
+                                    " I ",   " 1 "),
+                                " II ",  " 2 "),
+                            " III ", " 3 "),
+                        " IV ",  " 4 "),
+                    " V ",   " 5 "),
+                " VI ",  " 6 "),
+            " VII ", " 7 "),
+        " VIII ", " 8 ") AS ?sort_key
+    )    
+
+}
+ORDER BY ?sort_key

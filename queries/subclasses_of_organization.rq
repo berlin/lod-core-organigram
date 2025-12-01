@@ -1,0 +1,15 @@
+PREFIX berorgs: <https://berlin.github.io/lod-vocabulary/berorgs/>
+PREFIX org:  <http://www.w3.org/ns/org#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX lod_organigram: <https://berlin.github.io/lod-organigram/>
+
+SELECT ?class ?label
+WHERE {
+    ?class
+        rdfs:subClassOf org:Organization ;
+        rdfs:label ?label ;
+    .
+    # FILTER(LANG(?label) = 'de')
+}
+ORDER BY ?label

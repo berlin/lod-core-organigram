@@ -1,0 +1,379 @@
+@prefix berorgs: <https://berlin.github.io/lod-vocabulary/berorgs/> .
+@prefix core_org: <https://berlin.github.io/lod-core-organigram/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+core_org:org_0f98664c-7984-5e3a-b69c-6d00d2ffc7d8 a org:Organization ;
+    rdfs:label "Bezirksamt Marzahn-Hellersdorf"@de ;
+    berorgs:abbreviation "BA Marzahn-Hellersdorf"@de .
+
+core_org:org_1d65d3ff-4ec0-5c38-a78b-9c19ed5cd4a1 a org:Organization ;
+    rdfs:label "Bezirksamt Friedrichshain-Kreuzberg"@de ;
+    berorgs:abbreviation "BA Friedrichshain-Kreuzberg"@de .
+
+core_org:org_2145c6c3-c54e-535f-bff9-afa331d5a393 a org:Organization ;
+    rdfs:label "Bezirksamt Spandau"@de ;
+    berorgs:abbreviation "BA Spandau"@de .
+
+core_org:org_2d6abcbf-92af-5307-b643-8d828da74713 a org:Organization ;
+    rdfs:label "Bezirksamt Reinickendorf"@de ;
+    berorgs:abbreviation "BA Reinickendorf"@de .
+
+core_org:org_311697a3-e8e7-5cee-be46-4e967bb6d000 a org:Organization ;
+    rdfs:label "Bezirksamt Lichtenberg"@de ;
+    berorgs:abbreviation "BA Lichtenberg"@de .
+
+core_org:org_42ab6b48-9638-5397-aadc-b36c660d106a a org:Organization ;
+    rdfs:label "Verkehrsverbund Berlin-Brandenburg GmbH"@de ;
+    berorgs:abbreviation "VBB"@de .
+
+core_org:org_4e981fee-ab6a-5806-9822-2387e45322e7 a org:Organization ;
+    rdfs:label "Bezirksamt Tempelhof-Schöneberg"@de ;
+    berorgs:abbreviation "BA Tempelhof-Schöneberg"@de .
+
+core_org:org_4ec63f8b-7b9b-5aec-84f4-81924235342d a org:Organization ;
+    rdfs:label "Polizei Berlin"@de ;
+    berorgs:abbreviation ""@de .
+
+core_org:org_5a62e5a6-027c-591b-9478-64f21a985d1f a org:Organization ;
+    rdfs:label "Bezirksamt Charlottenburg-Wilmersdorf"@de ;
+    berorgs:abbreviation "BA Charlottenburg-Wilmersdorf"@de .
+
+core_org:org_7ab3a225-dfe2-5ebf-8fb9-7013d3c8e7a2 a org:Organization ;
+    rdfs:label "Bezirksamt Mitte"@de ;
+    berorgs:abbreviation "BA Mitte"@de .
+
+core_org:org_9871655c-38c3-5e72-a454-6dc660cf92e8 a org:Organization ;
+    rdfs:label "Berliner Wasserbetriebe"@de ;
+    berorgs:abbreviation ""@de .
+
+core_org:org_a02b149b-d470-5b32-a51e-58cde32a902e a org:Organization ;
+    rdfs:label "BerlinOnline GmbH"@de ;
+    berorgs:abbreviation "BO"@de .
+
+core_org:org_aad33c44-2637-53c4-a579-bc730515c3dc a org:Organization ;
+    rdfs:label "Bezirksamt Steglitz-Zehlendorf"@de ;
+    berorgs:abbreviation "BA Steglitz-Zehlendorf"@de .
+
+core_org:org_b8fc6e76-216e-53da-afe9-82df40eaef16 a org:Organization ;
+    rdfs:label "Bezirksamt Pankow"@de ;
+    berorgs:abbreviation "BA Pankow"@de .
+
+core_org:org_ba6882fd-d241-56ba-be3d-32954693277f a org:Organization ;
+    rdfs:label "Bezirksamt Neukölln"@de ;
+    berorgs:abbreviation "BA Neukölln"@de .
+
+core_org:org_c1c61fd6-1c5b-5dd1-b4b5-ebd3e52563dd a org:Organization ;
+    rdfs:label "Berliner Stadtreinigung"@de ;
+    berorgs:abbreviation "BSR"@de .
+
+core_org:org_d1ee1260-8cf0-560f-a495-6941438f45da a org:Organization ;
+    rdfs:label "Industrie- und Handelskammer zu Berlin"@de ;
+    berorgs:abbreviation "IHK"@de .
+
+core_org:org_d3653f97-876d-5a01-a789-7056db7b5402 a org:Organization ;
+    rdfs:label "Berliner Feuerwehr"@de ;
+    berorgs:abbreviation ""@de .
+
+core_org:org_e140c773-20ee-5372-8e5d-1fdc9031a9ec a org:Organization ;
+    rdfs:label "Bezirksamt Treptow-Köpenick"@de ;
+    berorgs:abbreviation "BA Treptow-Köpenick"@de .
+
+core_org:org_e8a44cc6-5562-554d-b1cc-498499725fc0 a org:Organization ;
+    rdfs:label "Amt für Statistik Berlin-Brandenburg"@de ;
+    berorgs:abbreviation "AfS"@de .
+
+core_org:org_048463ab-b58c-5723-b531-ae1863d68a0b a org:OrganizationalUnit ;
+    rdfs:label "Abteilung I – Innere Dienste, Sozialberatung der Berliner Justiz (organisatorisch), Justiz und Gesellschaft - Justiz in der vielfältigen Gesellschaft, Justizielle Opferhilfe und Zentrale Anlaufstelle für Betroffene von Terroranschlägen und deren Angehörigen, Baureferat"@de ;
+    org:unitOf core_org:org_e2987a2c-731e-5f43-91e4-639c646ea480 .
+
+core_org:org_05a92a03-d5e1-5aef-a21b-253ba4c12d81 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung I – Staats-und Verwaltungsrecht"@de ;
+    org:unitOf core_org:org_26ab9744-b1f8-5766-b4db-0de2e39c5921 .
+
+core_org:org_062b66ef-35b8-5be0-bee0-090a345d821a a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Pflege"@de ;
+    org:unitOf core_org:org_b9716bdb-0680-5807-b7be-b5fc45a0b89b .
+
+core_org:org_0defdb74-c277-5020-94e8-7ae787d581d0 a org:OrganizationalUnit ;
+    rdfs:label "Fischereiamt"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 .
+
+core_org:org_0e1b0ac2-407f-520f-b59b-9c2fa67271c2 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung I – Gesundheit"@de ;
+    org:unitOf core_org:org_b9716bdb-0680-5807-b7be-b5fc45a0b89b .
+
+core_org:org_1f6e40be-5c12-56f7-8fcb-787df0079dfe a org:OrganizationalUnit ;
+    rdfs:label "Abteilung III – Energie, Digitalisierung, Innovation"@de ;
+    org:unitOf core_org:org_f05f949d-c390-53fa-bc4f-5ab67da59d89 .
+
+core_org:org_2bb6adf9-674f-5af4-a642-11e277e0d795 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung VI – Verkehrsmanagement"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 .
+
+core_org:org_34392488-463d-54c4-891d-5928b2f88e7e a org:OrganizationalUnit ;
+    rdfs:label "Abteilung III – Angelegenheiten der Steuerverwaltung"@de ;
+    org:unitOf core_org:org_5ae6cac5-817e-57a3-9b46-c697dfbba6cd .
+
+core_org:org_3794220b-52b3-5735-8eb3-b636d8ecebb9 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Finanzpolitik und Haushalt"@de ;
+    org:unitOf core_org:org_5ae6cac5-817e-57a3-9b46-c697dfbba6cd .
+
+core_org:org_387580ee-5ee1-5071-88f7-c6e22e3bb2e9 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung VII – Schule in der digitalen Welt"@de ;
+    org:unitOf core_org:org_57a6dd31-b1d3-5fc2-b73a-0cc8a638d9ce .
+
+core_org:org_39a71ccf-6b45-5e66-9cd1-e6f4a342db12 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung I – Stadtplanung"@de ;
+    org:unitOf core_org:org_4af7b849-8767-5dc1-b244-4de42772cfe8 .
+
+core_org:org_39caa39a-6cc6-5688-a2c6-a01535bb68ef a org:OrganizationalUnit ;
+    rdfs:label "Abteilung V – Familie und frühkindliche Bildung"@de ;
+    org:unitOf core_org:org_57a6dd31-b1d3-5fc2-b73a-0cc8a638d9ce .
+
+core_org:org_3b7d8f6f-c25f-545a-b2cf-4c95ef15f29c a org:OrganizationalUnit ;
+    rdfs:label "Abteilung III – Öffentliche Sicherheit und Ordnung"@de ;
+    org:unitOf core_org:org_26ab9744-b1f8-5766-b4db-0de2e39c5921 .
+
+core_org:org_45f3e63b-c5bd-5b1f-9c13-3a68ff9a3600 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung III – Soziales"@de ;
+    org:unitOf core_org:org_53dfb317-5e72-5dc6-942c-fd29972e909a .
+
+core_org:org_53708410-faf3-5fb9-85a4-b0b9ba50e9bc a org:OrganizationalUnit ;
+    rdfs:label "Abteilung IV – Sport"@de ;
+    org:unitOf core_org:org_26ab9744-b1f8-5766-b4db-0de2e39c5921 .
+
+core_org:org_5d2358c4-275a-5332-a5a3-fd805884a6a8 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung III – Justizvollzug, Gnadenwesen, Soziale Dienste der Justiz - Gerichts- und Bewährungshilfe, Strafrecht, Strafverfahrensrecht, Strafvollstreckung"@de ;
+    org:unitOf core_org:org_e2987a2c-731e-5f43-91e4-639c646ea480 .
+
+core_org:org_5fc5695e-d720-59e5-8c4b-6a5651d0c332 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung I – Vermögen und Beteiligungen"@de ;
+    org:unitOf core_org:org_5ae6cac5-817e-57a3-9b46-c697dfbba6cd .
+
+core_org:org_6222a6ad-a641-53d3-89a2-b235e2cbc42f a org:OrganizationalUnit ;
+    rdfs:label "Abteilung I – Unterstützung und Beratung der Schulen, operative Schulaufsicht, Schulpsychologie, Personalmanage- ment, Bildungsstatistik und Prognose"@de ;
+    org:unitOf core_org:org_57a6dd31-b1d3-5fc2-b73a-0cc8a638d9ce .
+
+core_org:org_68794a8e-7bc4-59d5-89c4-fa8b953467e7 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung I – Umwelt- und Klimaschutzpolitik, Kreislaufwirtschaft und Immissionsschutz"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 .
+
+core_org:org_6ec1b08d-e1c9-5847-a6ae-95a398a72758 a org:OrganizationalUnit ;
+    rdfs:label "Pflanzenschutzamt"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 .
+
+core_org:org_6ed022a3-88ce-5249-82c5-4747589fd9f2 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung V – Tiefbau"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 .
+
+core_org:org_77fecfe8-14e5-5702-a380-79115515df11 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung IV – Landespersonal"@de ;
+    org:unitOf core_org:org_5ae6cac5-817e-57a3-9b46-c697dfbba6cd .
+
+core_org:org_80390e27-c7d5-592b-82be-d3eb7574580c a org:OrganizationalUnit ;
+    rdfs:label "Abteilung III – Naturschutz und Stadtgrün"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 .
+
+core_org:org_8672d1a6-ab17-5988-8dd9-a29192f1dbc2 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Zivilrecht, öffentliches Recht, Angelegenheiten der Informations- und Kommunikationstechnik der Gerichte und Strafverfolgungsbehörden, Stiftungsaufsicht"@de ;
+    org:unitOf core_org:org_e2987a2c-731e-5f43-91e4-639c646ea480 .
+
+core_org:org_86fe495f-9cf1-5e53-a33e-e461a154924a a org:OrganizationalUnit ;
+    rdfs:label "Abteilung IV – Betriebe und Strukturpolitik"@de ;
+    org:unitOf core_org:org_f05f949d-c390-53fa-bc4f-5ab67da59d89 .
+
+core_org:org_8c343579-25ee-5a7d-ab90-a8410a6953ab a org:OrganizationalUnit ;
+    rdfs:label "Abteilung V – Hochbau"@de ;
+    org:unitOf core_org:org_4af7b849-8767-5dc1-b244-4de42772cfe8 .
+
+core_org:org_8d7e907b-8a07-5443-b7ec-f46dd9300d07 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Wirtschaftspolitik und Wirtschaftsordnung"@de ;
+    org:unitOf core_org:org_f05f949d-c390-53fa-bc4f-5ab67da59d89 .
+
+core_org:org_8e2f66f8-b4d5-51ac-9f5b-3904e14b0696 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Verfassungsschutz"@de ;
+    org:unitOf core_org:org_26ab9744-b1f8-5766-b4db-0de2e39c5921 .
+
+core_org:org_8e49bdaa-7b27-5d06-9579-ef9e829f3c29 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung IV – Mobilität"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 .
+
+core_org:org_8f366820-b8a5-57b6-8335-76dfc141cc78 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Integrativer Umweltschutz"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 .
+
+core_org:org_9420ce0e-0c0d-567e-8160-d5d3957a4923 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung IV – Wohnen und Stadterneuerung"@de ;
+    org:unitOf core_org:org_4af7b849-8767-5dc1-b244-4de42772cfe8 .
+
+core_org:org_94db7d7c-3911-566f-9ce0-094fede59651 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Städtebau und Projekte"@de ;
+    org:unitOf core_org:org_4af7b849-8767-5dc1-b244-4de42772cfe8 .
+
+core_org:org_97219240-ec15-5973-bb68-3e366dd2f4be a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Engagement- und Demokratieförderung, Beauftragter für Kirchen, Religions- und Weltanschauungsgemeinschaften"@de ;
+    org:unitOf core_org:org_4eff6ca7-69b6-5616-a112-16937f5bbcb8 .
+
+core_org:org_b7ec616e-b5a7-57f0-8bda-fe3463c86411 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Grundsatzangelegenheiten und Recht des Bildungswesens; allgemein bildende Schulen; Lehrkräftebildung"@de ;
+    org:unitOf core_org:org_57a6dd31-b1d3-5fc2-b73a-0cc8a638d9ce .
+
+core_org:org_bb0fc996-ad62-5048-a64d-fb54b48b79a4 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung V – Frauen und Gleichstellung"@de ;
+    org:unitOf core_org:org_53dfb317-5e72-5dc6-942c-fd29972e909a .
+
+core_org:org_c65b03f9-371f-5509-b049-2d15fe4ddf14 a org:OrganizationalUnit ;
+    rdfs:label "Landesamt für Gesundheit und Soziales"@de ;
+    org:unitOf core_org:org_53dfb317-5e72-5dc6-942c-fd29972e909a ;
+    berorgs:abbreviation "LAGeSo"@de .
+
+core_org:org_c97f3d8f-fda4-5927-9bfd-fb1b8d589a8c a org:OrganizationalUnit ;
+    rdfs:label "Landesamt für Bürger- und Ordnungsangelegenheiten"@de ;
+    org:unitOf core_org:org_26ab9744-b1f8-5766-b4db-0de2e39c5921 ;
+    berorgs:abbreviation "LABO"@de .
+
+core_org:org_ca09e19e-dcb6-5e9f-b789-ed1df60e41eb a org:OrganizationalUnit ;
+    rdfs:label "Abteilung VI – Ministerielle Angelegenheiten des Bauens, Grundsatz und Recht"@de ;
+    org:unitOf core_org:org_4af7b849-8767-5dc1-b244-4de42772cfe8 .
+
+core_org:org_cb7623d8-3c74-565d-b92d-39fbda9bfa07 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung V – Verbraucherschutz"@de ;
+    org:unitOf core_org:org_e2987a2c-731e-5f43-91e4-639c646ea480 .
+
+core_org:org_cc609d28-8df8-5860-b08f-712749621968 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung VI – Schulentwicklungsplanung und Schulinfrastruktur im Land Berlin"@de ;
+    org:unitOf core_org:org_57a6dd31-b1d3-5fc2-b73a-0cc8a638d9ce .
+
+core_org:org_d138a877-1f5e-561d-98b5-3608d0a62761 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung III – Jugend und Kinderschutz"@de ;
+    org:unitOf core_org:org_57a6dd31-b1d3-5fc2-b73a-0cc8a638d9ce .
+
+core_org:org_e63e6f20-60e0-527e-97e8-06939cb5f8df a org:OrganizationalUnit ;
+    rdfs:label "Abteilung IV – Schulische Berufliche Bildung; Zentralverwaltete Schulen, Europäische und Internationale Angelegenheiten"@de ;
+    org:unitOf core_org:org_57a6dd31-b1d3-5fc2-b73a-0cc8a638d9ce .
+
+core_org:org_ebceecbd-8da7-5141-8c87-57eb596caab4 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung IV – Antidiskriminierung und Vielfalt"@de ;
+    org:unitOf core_org:org_53dfb317-5e72-5dc6-942c-fd29972e909a .
+
+core_org:org_f190754b-cdc9-5483-9ab0-18512e393e53 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung I – Integration und Migration"@de ;
+    org:unitOf core_org:org_53dfb317-5e72-5dc6-942c-fd29972e909a .
+
+core_org:org_f34efc6b-bb66-5917-bc34-9a090cadb709 a org:OrganizationalUnit ;
+    rdfs:label "Abteilung IV – Gemeinsames Juristisches Prüfungsamt der Länder Berlin und Brandenburg, Juristische Prüfungen, Aus- und. Fortbildung in der Rechtspflege"@de ;
+    org:unitOf core_org:org_e2987a2c-731e-5f43-91e4-639c646ea480 .
+
+core_org:org_f9249be0-fa88-5b4b-b6d4-b72be17ff64e a org:OrganizationalUnit ;
+    rdfs:label "Abteilung III – Geoinformation"@de ;
+    org:unitOf core_org:org_4af7b849-8767-5dc1-b244-4de42772cfe8 .
+
+core_org:org_f9262704-7bba-5da4-a36b-1bdf30acec7d a org:OrganizationalUnit ;
+    rdfs:label "Abteilung I – Kultur"@de ;
+    org:unitOf core_org:org_4eff6ca7-69b6-5616-a112-16937f5bbcb8 .
+
+core_org:org_f995b52f-54a7-5c0c-9956-a364ee4bcdcf a org:OrganizationalUnit ;
+    rdfs:label "Abteilung II – Arbeit und Berufliche Bildung"@de ;
+    org:unitOf core_org:org_53dfb317-5e72-5dc6-942c-fd29972e909a .
+
+core_org:org_fa7c8d23-9722-5d62-b6b1-b49f4996ef4c a org:OrganizationalUnit ;
+    rdfs:label "Gemeinsame Obere Luftfahrtbehörde Berlin-Brandenburg"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 .
+
+core_org:org_fed1faf4-ccc6-574c-85c9-0585d16acd7c a org:OrganizationalUnit ;
+    rdfs:label "Berliner Forsten"@de ;
+    org:unitOf core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 ;
+    berorgs:abbreviation ""@de .
+
+core_org:org_4eff6ca7-69b6-5616-a112-16937f5bbcb8 a org:Organization ;
+    rdfs:label "Senatsverwaltung für Kultur und Gesellschaftlichen Zusammenhalt"@de ;
+    org:hasUnit core_org:org_97219240-ec15-5973-bb68-3e366dd2f4be,
+        core_org:org_f9262704-7bba-5da4-a36b-1bdf30acec7d ;
+    berorgs:abbreviation "SenKultGZ"@de .
+
+core_org:org_b9716bdb-0680-5807-b7be-b5fc45a0b89b a org:Organization ;
+    rdfs:label "Senatsverwaltung für Wissenschaft, Gesundheit und Pflege"@de ;
+    org:hasUnit core_org:org_062b66ef-35b8-5be0-bee0-090a345d821a,
+        core_org:org_0e1b0ac2-407f-520f-b59b-9c2fa67271c2 ;
+    berorgs:abbreviation "SenWGP"@de .
+
+core_org:org_f05f949d-c390-53fa-bc4f-5ab67da59d89 a org:Organization ;
+    rdfs:label "Senatsverwaltung für Wirtschaft, Energie und Betriebe"@de ;
+    org:hasUnit core_org:org_1f6e40be-5c12-56f7-8fcb-787df0079dfe,
+        core_org:org_86fe495f-9cf1-5e53-a33e-e461a154924a,
+        core_org:org_8d7e907b-8a07-5443-b7ec-f46dd9300d07 ;
+    berorgs:abbreviation "SenWEB"@de .
+
+core_org:org_5ae6cac5-817e-57a3-9b46-c697dfbba6cd a org:Organization ;
+    rdfs:label "Senatsverwaltung für Finanzen"@de ;
+    org:hasUnit core_org:org_34392488-463d-54c4-891d-5928b2f88e7e,
+        core_org:org_3794220b-52b3-5735-8eb3-b636d8ecebb9,
+        core_org:org_5fc5695e-d720-59e5-8c4b-6a5651d0c332,
+        core_org:org_77fecfe8-14e5-5702-a380-79115515df11 ;
+    berorgs:abbreviation "SenFin"@de .
+
+core_org:org_26ab9744-b1f8-5766-b4db-0de2e39c5921 a org:Organization ;
+    rdfs:label "Senatsverwaltung für Inneres und Sport"@de ;
+    org:hasUnit core_org:org_05a92a03-d5e1-5aef-a21b-253ba4c12d81,
+        core_org:org_3b7d8f6f-c25f-545a-b2cf-4c95ef15f29c,
+        core_org:org_53708410-faf3-5fb9-85a4-b0b9ba50e9bc,
+        core_org:org_8e2f66f8-b4d5-51ac-9f5b-3904e14b0696,
+        core_org:org_c97f3d8f-fda4-5927-9bfd-fb1b8d589a8c ;
+    berorgs:abbreviation "SenInn"@de .
+
+core_org:org_e2987a2c-731e-5f43-91e4-639c646ea480 a org:Organization ;
+    rdfs:label "Senatsverwaltung für Justiz und Verbraucherschutz"@de ;
+    org:hasUnit core_org:org_048463ab-b58c-5723-b531-ae1863d68a0b,
+        core_org:org_5d2358c4-275a-5332-a5a3-fd805884a6a8,
+        core_org:org_8672d1a6-ab17-5988-8dd9-a29192f1dbc2,
+        core_org:org_cb7623d8-3c74-565d-b92d-39fbda9bfa07,
+        core_org:org_f34efc6b-bb66-5917-bc34-9a090cadb709 ;
+    berorgs:abbreviation "SenJustV"@de .
+
+core_org:org_4af7b849-8767-5dc1-b244-4de42772cfe8 a org:Organization ;
+    rdfs:label "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen"@de ;
+    org:hasUnit core_org:org_39a71ccf-6b45-5e66-9cd1-e6f4a342db12,
+        core_org:org_8c343579-25ee-5a7d-ab90-a8410a6953ab,
+        core_org:org_9420ce0e-0c0d-567e-8160-d5d3957a4923,
+        core_org:org_94db7d7c-3911-566f-9ce0-094fede59651,
+        core_org:org_ca09e19e-dcb6-5e9f-b789-ed1df60e41eb,
+        core_org:org_f9249be0-fa88-5b4b-b6d4-b72be17ff64e ;
+    berorgs:abbreviation "SenSBW"@de .
+
+core_org:org_53dfb317-5e72-5dc6-942c-fd29972e909a a org:Organization ;
+    rdfs:label "Senatsverwaltung für Arbeit, Soziales, Gleichstellung, Integration, Vielfalt und Antidiskriminierung"@de ;
+    org:hasUnit core_org:org_45f3e63b-c5bd-5b1f-9c13-3a68ff9a3600,
+        core_org:org_bb0fc996-ad62-5048-a64d-fb54b48b79a4,
+        core_org:org_c65b03f9-371f-5509-b049-2d15fe4ddf14,
+        core_org:org_ebceecbd-8da7-5141-8c87-57eb596caab4,
+        core_org:org_f190754b-cdc9-5483-9ab0-18512e393e53,
+        core_org:org_f995b52f-54a7-5c0c-9956-a364ee4bcdcf ;
+    berorgs:abbreviation "SenASGIVA"@de .
+
+core_org:org_57a6dd31-b1d3-5fc2-b73a-0cc8a638d9ce a org:Organization ;
+    rdfs:label "Senatsverwaltung für Bildung, Jugend und Familie"@de ;
+    org:hasUnit core_org:org_387580ee-5ee1-5071-88f7-c6e22e3bb2e9,
+        core_org:org_39caa39a-6cc6-5688-a2c6-a01535bb68ef,
+        core_org:org_6222a6ad-a641-53d3-89a2-b235e2cbc42f,
+        core_org:org_b7ec616e-b5a7-57f0-8bda-fe3463c86411,
+        core_org:org_cc609d28-8df8-5860-b08f-712749621968,
+        core_org:org_d138a877-1f5e-561d-98b5-3608d0a62761,
+        core_org:org_e63e6f20-60e0-527e-97e8-06939cb5f8df ;
+    berorgs:abbreviation "SenBJF"@de .
+
+core_org:org_ed497d1d-bc70-5e4a-944d-abbe7d253b63 a org:Organization ;
+    rdfs:label "Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt"@de ;
+    org:hasUnit core_org:org_0defdb74-c277-5020-94e8-7ae787d581d0,
+        core_org:org_2bb6adf9-674f-5af4-a642-11e277e0d795,
+        core_org:org_68794a8e-7bc4-59d5-89c4-fa8b953467e7,
+        core_org:org_6ec1b08d-e1c9-5847-a6ae-95a398a72758,
+        core_org:org_6ed022a3-88ce-5249-82c5-4747589fd9f2,
+        core_org:org_80390e27-c7d5-592b-82be-d3eb7574580c,
+        core_org:org_8e49bdaa-7b27-5d06-9579-ef9e829f3c29,
+        core_org:org_8f366820-b8a5-57b6-8335-76dfc141cc78,
+        core_org:org_fa7c8d23-9722-5d62-b6b1-b49f4996ef4c,
+        core_org:org_fed1faf4-ccc6-574c-85c9-0585d16acd7c ;
+    berorgs:abbreviation "SenMVKU"@de .
+
+

@@ -1,0 +1,22 @@
+@prefix berorgs: <https://berlin.github.io/lod-vocabulary/berorgs/> .
+@prefix blnal: <https://berlin.github.io/lod-vocabulary/blnal/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix coreorg: <https://berlin.github.io/lod-core-organigram/> .
+
+coreorg: a void:Dataset ;
+    dcterms:created "2025-09-10"^^xsd:date ;
+    dcterms:description "Ein experimentelles Core-Organigramm für die Berliner Verwaltung."@de,
+        "An experimental core orgranigrams for Berlin's administration."@en ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2025-11-30"^^xsd:date ;
+    dcterms:title "Berliner Core-Organigramm"@de,
+        "Berlin Core Organigram"@en ;
+    void:vocabulary berorgs:, blnal: ;
+    blnal:changelog <https://github.com/berlin/lod-core-organigram/blob/main/CHANGELOG.md> ;
+    foaf:homepage <https://github.com/berlin/lod-core-organigram> ;
+.
